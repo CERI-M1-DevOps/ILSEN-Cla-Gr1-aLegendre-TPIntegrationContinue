@@ -16,4 +16,4 @@ jobs:
           cache: maven
       
       - run: java --version
-      - run: mvn -B package
+      - run: mvn -B package --file pom.xml
