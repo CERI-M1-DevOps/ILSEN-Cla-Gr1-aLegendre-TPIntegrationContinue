@@ -2,6 +2,8 @@ name: Java CI with Maven - Test and package
 on: 
   pull_request:
     branches: [main]
+permissions:
+  contents: read
 jobs:
   # Job : 
   test:
