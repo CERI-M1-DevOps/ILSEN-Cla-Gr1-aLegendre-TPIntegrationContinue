@@ -119,6 +119,7 @@ class ListeSimpleTest {
         assertNull(listeATester.tete);
         assertEquals(0, listeATester.getSize());
     }
+    
 
     @Test
      void supprimeTousUneSeuleFoisAuDebut() {
